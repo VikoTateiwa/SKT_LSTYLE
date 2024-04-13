@@ -1,0 +1,101 @@
+.nav-link .active{
+    color: #fff;
+}
+
+.nav-link{
+    text-align: center;
+}
+
+
+section{
+    height: 100vh;
+    background-color: #dee4d8;
+    margin: 0;
+    overflow: hidden;
+}
+section img{
+    width: 100vw;
+}
+
+section .card img{
+    width: 100%;
+}
+
+section .card p{
+    padding: 5px 0px;
+}
+
+section h2,p{
+    padding: 0 120px;
+}
+
+.historia p{
+    font-size: 26px;
+    text-align: justify;
+}
+
+#historia{
+    text-align: center;
+    padding-top: 100px;
+}
+
+header{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 9999;
+    background-color: #ffffff;
+}
+
+header img{
+    width: 7%;
+    margin-bottom: 8px;
+}
+
+section .historia img{
+    width: 50%;
+    padding-top: 50px;
+}
+
+.col-md-6, .col-sm-12{
+    padding-bottom: 26px;
+}
+
+@media (max-width: 991px) {
+    section{
+        height: 45%;
+        overflow: none;
+        padding-bottom: 36px;
+    }
+    .historia p{
+        font-size: 20px;
+        text-align: justify;
+    }
+
+}
+
+@media (max-width: 767px) {
+    section{
+        height: 35%;
+        overflow: none;
+        padding-bottom: 36px;
+    }
+    .historia p{
+        font-size: 16px;
+        text-align: justify;
+    }
+
+}
+
+@media (max-width: 480px) {
+    section{
+        height: 25%;
+        overflow: none;
+        padding-bottom: 36px;
+    }
+    .historia p{
+        font-size: 12px;
+        text-align: justify;
+    }
+
+}
